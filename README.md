@@ -10,10 +10,7 @@ This project aims to predict the price of NVIDIA stock using Triple Exponential 
 - [Data Analysis](#data-analysis)
 - [Time Series Modeling](#time-series-modeling)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 The goal of this project is to predict the future prices of NVIDIA stock. We use historical stock prices scraped from Yahoo Finance and apply time series analysis using the Holt-Winters method for prediction. 
@@ -34,11 +31,9 @@ To run this project, you need to have Python installed on your system along with
 - selenium
 - matplotlib
 - seaborn
-- lightgbm
 - BeautifulSoup
 - statsmodels
 - scikit-learn
 
-You can install the necessary libraries using pip:
-```bash
-pip install pandas numpy selenium matplotlib seaborn lightgbm beautifulsoup4 statsmodels scikit-learn
+## Results
+The results include visualizations of the historical stock prices and the predicted future prices using the Holt-Winters method. The performance of the model is evaluated using Mean Absolute Error (MAE).
